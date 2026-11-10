@@ -37,7 +37,7 @@ what context removed.
 
 ## Experiment 1: run the props version
 
-In `src/main.jsx`:
+In `src/entry.jsx`:
 
 1. Change the App import to `./with-props/App.jsx`.
 2. Delete the two `SavedProvider` tags, leaving `<App />` inside `<StrictMode>`.
