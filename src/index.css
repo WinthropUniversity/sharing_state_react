@@ -1,0 +1,46 @@
+/* Just enough styling to see the header, the main area and the button.
+   The lecture is about sharing state, so there is nothing clever here. */
+
+:root {
+  font-family: system-ui, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #1f2937;
+  background: #f3f4f6;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background: #ffffff;
+  border-bottom: 1px solid #878d96;
+  padding: 1rem 1.5rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+main {
+  padding: 2rem 1.5rem;
+}
+
+button {
+  font: inherit;
+  color: #ffffff;
+  background: #5b21b6;
+  border: 1px solid #5b21b6;
+  border-radius: 6px;
+  padding: 0.5rem 1.25rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #4c1d95;
+  border-color: #4c1d95;
+}
+
+button:focus-visible {
+  outline: 3px solid #1f2937;
+  outline-offset: 2px;
+}
