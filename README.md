@@ -25,7 +25,7 @@ The context version runs by default.
 | File | Step | What it does |
 | --- | --- | --- |
 | `src/SavedContext.jsx` | 1. Create | Makes the context and holds the count |
-| `src/main.jsx` | 2. Provide | Wraps the app in the provider |
+| `src/entry.jsx` | 2. Provide | Wraps the app in the provider |
 | `src/Header.jsx` | 3. Use | Reads the count |
 | `src/SaveButton.jsx` | 3. Use | Reads it and changes it |
 | `src/App.jsx` | | No state, no props |
@@ -89,10 +89,8 @@ Rules:
 Run Experiment 3 again when you are done and see whether the list of readers
 changed.
 
-```
 
 ## Submit on Blackboard
 
 1. Zip your file without the node modules
-
 

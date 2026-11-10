@@ -1,7 +1,7 @@
 // Slide 7. The same screen, built with props instead of context.
 //
 // App owns the count here. It sends the value to Header and a function to
-// Main. Nothing in this folder is used until you switch to it in main.jsx.
+// Main. Nothing in this folder is used until you switch to it in entry.jsx.
 
 import { useState } from "react";
 import Header from "./Header.jsx";
