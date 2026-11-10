@@ -48,7 +48,7 @@ Undo both changes before moving on. Use `git diff` to check.
 
 ## Experiment 2: a reader outside the provider
 
-In `src/main.jsx`, import Header and add a `<Header />` above
+In `src/entry.jsx`, import Header and add a `<Header />` above
 `<SavedProvider>`.
 
 The page goes blank. Open the Console and read the error. It names the value
